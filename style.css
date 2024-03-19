@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: #291b1b; 
+font-family: poppins;}
+.container {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.top-form form.create_form input, .top-form form.update_form input {
+    width: 250px;
+    outline: none;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+form button{
+    padding: 10px 15px;
+    background: green;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 35px 15px;
+    color: #fff;
+    
+}
+
+
+table th {
+    text-align: left;
+    width: 200px;
+    padding-bottom: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.update_form{
+    display: none;
+}
+.top-form {
+    padding-bottom: 100px;
+    padding-top: 65px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 100px;
+}
+.right {
+    text-align: center;
+}
+
+button.edit {
+    background: #ffa500b5;
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+button.delete {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+button.copy {
+    background: rgb(60, 161, 243);
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+span#email-error{
+    margin-right: 65px;
+}
+
+.create_form span{
+    color: rgba(255, 0, 0, 0.658);
+}
+
+
+button i {
+    margin-right: 5px;
+}
+th.action {
+    width: 300px;
+}
+.valid-mes {
+    display: flex;
+    column-gap: 65px;
+}
